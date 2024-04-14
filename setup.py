@@ -6,7 +6,9 @@ setup(
     packages=find_packages(),
     install_requires=[
         'requests',  # Add other dependencies as needed
-        'cryptography',
+        'appdirs',
+        'comutils',
+        'cominfer',
     ],
     entry_points={
         'console_scripts': [
